@@ -1,0 +1,53 @@
+
+
+
+@media(max-width:480px){
+	.f-s4{
+	font-size: 2.5em;
+	text-align: center;
+	font-family: "proxima nova light" ;
+	}
+}
+@media(min-width:480px) and (max-width:650px){
+	.f-s4{
+	font-size: 1.5em;
+	text-align: center;
+	font-family: "proxima nova light" ;
+	}
+}
+
+@media(min-width:650) and (max-width:770px){
+	.f-s4{
+	font-size: 1.7em;
+	text-align: center;
+	font-family: "proxima nova light" ;
+	}
+}
+@media(min-width:770px) and (max-width:840px){
+	.f-s4{
+	font-size: 2.8rem;
+	text-align: center;
+	font-family: "proxima nova light" ;
+	}
+}
+@media(min-width: 1200px){
+	.f-s4{
+	font-size: 1.1em !important;
+	text-align: justify;
+	font-family: "proxima nova light" ;
+}
+}
+@media(min-width: 1000px) and (max-width: 1200px){
+	.f-s4{
+	font-size: 1em !important;
+	text-align: justify;
+	font-family: "proxima nova light" ;
+}
+}
+@media(min-width: 780px) and (max-width: 1000px){
+	.f-s4{
+	font-size: 0.72em !important;
+	text-align: justify;
+	font-family: "proxima nova light" ;
+}
+}

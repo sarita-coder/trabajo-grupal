@@ -1,0 +1,307 @@
+/*{
+border: 1px solid;
+}*/
+
+.sinpadding [class*="col-"] {
+    padding: 0;
+}
+.main-2 {
+	background-image: url('../img/background-about-us@2x.jpg');
+	}
+.title-m-2{
+	font-size: 3.3em !important;
+	font-family: "proxima nova light" ;
+	font-weight: normal;
+}
+.btn-read{
+	background: #002366;
+	font-size: 1.8em !important;
+	font-family: "proxima nova light" ;
+}
+.p1-m-2{
+	font-size: 140%;
+}
+.p2-m-2{
+	font-size: 200%;
+	text-align: left;
+}
+.btn-apply{
+	background: #179AD6;
+	font-size: 3em;
+}
+.btn-conctac {
+	border: 2px solid white;
+	font-size: 1.5em;
+	border-radius: 4px;
+}
+
+.main-3 {
+	background: #F6F6F6;
+}
+.team, .co-founder {
+	background: white;
+}
+.team img {
+	height: auto;
+}
+
+.co-founder h5 , .team h5 {
+	color: #898989;
+
+}
+.red img{
+	width: 13%;
+	height: 2.5em;
+	margin: 0 5px;
+}
+.red-xs img{
+	width: 7%;
+	height: 3em;
+	margin: 0 5px;
+}
+.title{
+	color: color: #002366;
+}
+.thumbnail:hover{
+	text-shadow: 1px 0px 8px #179ad6;
+	border: 2px solid #179ad6;
+
+}
+.p1-m-3:hover{
+	text-shadow: 1px 0px 8px #179ad6;
+}
+
+
+
+/*escritorio*/
+@media (min-width: 1200px){
+	
+	.t-main-1 {
+	font-size: 1.3em;
+	margin-left: -3%;
+	}
+	.t-icono{
+		text-align: right;
+	}
+	.t-m-2{
+		text-align: right;
+	}
+	.row-team {
+		padding: 0 23%;
+	}
+	.row-found{
+		padding: 0 32%;
+	}
+	.row-team2 {
+		padding: 0 32%;
+	}
+	.title {
+	font-family: "proxima nova light";
+	font-size: 3.3em !important; 
+		color: #002366;
+	}
+	.title1 {
+	font-family: "proxima nova light";
+	font-size: 2.6em !important; 
+		color: #002366;
+	}
+	.p2-m-1{
+		font-size: 1.2em;
+	}
+	.p1-m-3{
+	font-size: 1.4em;
+	}
+
+}
+/* Pequeño o tablet */
+@media (min-width: 768px)  and (max-width: 1000px){
+			
+	h3 .fa-quote-left{
+		font-size: 0.6em;
+		float: right;
+	}
+	.p1-m-1{
+		font-size: 1.1em;
+	}
+	.p2-m-1{
+		font-size: 0.8em;
+	}
+	.p1-m-2{
+		font-size: 0.9em;
+	}
+	.p2-m-2{
+		font-size: 1.3em;
+	}
+	.p3-m-2{
+		font-size: 1.3em;
+	}
+	.p1-m-3{
+		font-size: 0.9em;
+	}
+	.p2-m-3{
+		font-size: 1.2em;
+	}
+
+
+}
+@media (min-width: 1000px)  and (max-width: 1200px){ 
+	.t-icono{
+		text-align: center;
+	}
+	.p1-m-1{
+		font-size: 1.4em;
+	}
+	.t-main-1 {
+	font-size:1em;
+	margin-left: -3%;
+	}
+	.h-main-1{
+		font-size: 1.3em;
+	}
+	.p1-m-2{
+		font-size: 1.15em;
+	}
+	.p2-m-2{
+		font-size: 1.6em;
+	}
+	.p3-m-2{
+		font-size: 1.6em;
+	}
+	.p1-m-3{
+		font-size: 1.2em;
+	}
+	.p2-m-3{
+		font-size: 1.5em;
+	}
+	.t-m-2{
+		text-align: right;
+	}
+	.row-team {
+		padding: 0 10%;
+	}
+	.row-found{
+		padding: 0 23%; 
+	}
+	.row-team2 {
+		padding: 0 23%;
+	}
+	.p-m-3 {
+		font-size: 0.5em;
+	}
+}
+
+/*  Tablet o Smartphone*/
+@media (max-width: 767px) { 
+	.t-icono{
+		text-align: center;
+	}
+	.p1-m-1{
+		font-size: 2.3em;
+	}
+	.p2-m-1{
+		padding: 10% 0;
+		font-size: 2.1em;
+	}
+	.title-m-2{
+		font-size: 1em;
+	}
+	.p1-m-2{
+		font-size: 2em;
+	}
+	.p2-m-2{
+		font-size: 2.5em;
+	}
+	.row-p2{
+		text-align: center;
+	}
+	.p3-m-2{
+		font-size: 1.6em;
+	}
+	.p1-m-3{
+		font-size: 1.4em;
+	}
+	.p2-m-3{
+		font-size: 2.2em;
+	}
+	.t-m-2{
+		text-align: right;
+	}
+	.row-m-1{
+		text-align: center;
+	}
+	.row-team {
+		padding: 0 15%;
+	}
+	.row-found{
+		padding: 0 15%; 
+	}
+	.row-team2 {
+		padding: 0 15%;
+	}
+
+	
+}
+
+/* smartphone */
+@media (max-width: 480px) { 
+	.t-icono{
+		text-align: center;
+	}
+	.row-team {
+		padding: 0 25%;
+	}
+	.row-found{
+		padding: 0 25%;
+	}
+	.row-team2{
+		padding: 0 25%;
+	}
+	.h-main-1{
+		font-size: 1.5em;
+	}
+	.row-team {
+		padding: 0 15%;
+	}
+	.row-found{
+		padding: 0 15%; 
+	}
+	.row-team2 {
+		padding: 0 15%;
+	}
+	.row-m-1{
+		text-align: center;
+	}
+		.p1-m-1{
+		font-size: 2.7em;
+	}
+	.p2-m-1{
+		padding: 10% 0;
+		font-size: 2.5em;
+	}
+	.title-m-2{
+		font-size: 1em;
+	}
+	.p1-m-2{
+		font-size: 2em;
+	}
+	.p2-m-2{
+		font-size: 2.1em;
+	}
+	.row-p2{
+		text-align: center;
+	}
+	.p3-m-2{
+		font-size: 1.6em;
+	}
+	.p1-m-3{
+		font-size: 2em;
+	}
+	.p2-m-3{
+		font-size: 1.5em;
+	}
+	.t-m-2{
+		text-align: right;
+	}
+
+
+}

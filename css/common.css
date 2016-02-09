@@ -1,0 +1,27 @@
+.logo-header{
+	width: 70%;
+	height: 2.5em;
+}
+.logo{
+	margin:auto;
+}
+footer{
+	border-top: 1px solid #e0e0e0;
+}
+.footer-text h3 , .private h4 {
+display: inline-block;
+padding:0 0.5em;
+}
+.nav-xs{
+	position: relative;
+	left:0%;
+}
+.red-xs img {
+	margin: 0 1%;
+}
+.red-xs img:hover{
+	padding: 0.2em; 
+}
+.navbar-right li a:hover{
+	text-shadow: 1px 0px 8px #179ad6;
+}
